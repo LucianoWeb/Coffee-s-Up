@@ -1,0 +1,60 @@
+.button-main{
+    top: 30rem;
+    position: absolute;
+    padding: 1rem 1.5rem;
+    border: 1px solid black;
+    font-size: 1.3rem;
+    font-weight: 700;
+    opacity: 80%;
+}
+.button-main:hover{
+    opacity: 100%;
+
+}
+
+.video-main{
+    position: relative;   
+    width: 100%; 
+    
+}
+.slogan{
+    position: absolute;
+    top: 20rem;
+    font-family: "Berkshire Swash";
+    color: white;
+    font-size: 2.5rem;
+    font-weight: 700;
+
+}
+
+.slogan2{
+    font-weight: 700;
+    font-size: 2rem;
+    color: #a25c00;
+}
+.disco{
+    color: #a25c00;
+}
+@media(max-width:768px){
+    .button-main{
+        display: none;
+        
+    }
+    .slogan{
+        font-size: 1.5rem;
+        top: 15rem;
+        text-align: center;
+    }
+    .video-main{
+        margin-top: 5rem;
+    }
+    .slogan2{
+        font-size: 1.5rem;
+    
+    }
+}
+@media(max-width:1080px){
+    .button-main{
+        display: none;
+    }
+}

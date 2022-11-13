@@ -1,0 +1,40 @@
+.map{
+    width: 22rem;
+    height: 22rem;
+    border: 2px solid #ffc107;
+    opacity: 70%;
+    border-radius: 10px;
+    margin: 3rem 0;
+    
+}
+.map:hover{
+    opacity: 100%;
+}
+.container-where{
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.751), rgba(0, 0, 0, 0.751)), url(../assets/local.jpg);
+    padding: 2rem;
+    background-size: cover;
+   
+}
+.slogan3{
+    margin: 3rem;
+    color: white;
+    font-weight: 700;
+    font-size: 2.2rem;
+    letter-spacing: 1px;
+}
+.container-where h4{
+    color: #ffc107;
+    font-weight: 700;
+    font-size: 2rem;
+}
+@media(max-width:768px){
+    .slogan3{
+        margin: 3rem 0;
+    }
+    .map{
+     width: 19rem;
+     height: 19rem;
+       
+    }
+}
